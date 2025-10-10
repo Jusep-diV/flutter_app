@@ -5,6 +5,9 @@ import 'screens/profile_screen.dart';
 import 'screens/thumbs3_screen.dart';
 import 'screens/icon_rows_screen.dart';
 import 'screens/image_columns_screen.dart';
+import 'screens/text_styles_screen.dart';
+import 'screens/repeated_images_screen.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -30,6 +33,8 @@ class MyApp extends StatelessWidget {
         '/thumbs3': (context) => const Thumbs3Screen(),
         '/icon_rows': (context) => const IconRowsScreen(),
         '/image_columns': (context) => const ImageColumnsScreen(),
+        '/text_styles': (context) => const TextStylesScreen(),
+        '/repeated_images': (context) => const RepeatedImagesScreen(),
       },
     );
   }

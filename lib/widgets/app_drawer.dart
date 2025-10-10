@@ -54,6 +54,17 @@ class AppDrawer extends StatelessWidget {
               title: const Text('5 imágenes en columnas'),
               onTap: () => _go(context, '/image_columns'),
             ),
+            ListTile(
+              leading: const Icon(Icons.text_fields),
+              title: const Text('Textos y Fuentes'),
+              onTap: () => _go(context, '/text_styles'),
+            ),
+            ListTile(
+              leading: const Icon(Icons.image_outlined),
+              title: const Text('Imágenes Repetidas'),
+              onTap: () => _go(context, '/repeated_images'),
+            ),
+
           ],
         ),
       ),
